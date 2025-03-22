@@ -1,0 +1,134 @@
+{
+  "name": "Resume Builder For Free",
+  "short_name": "Resume Builder For Free",
+  "start_url": "https://resume.meringtone.com/",
+  "display": "standalone",
+  "background_color": "#edfffb",
+  "lang": "en",
+  "scope": "https://resume.meringtone.com/",
+  "id": "https://resume.meringtone.com/",
+  "description": "Build your Resume easily!",
+  "screenshots": [
+    {
+      "src": "https://resume.meringtone.com/pwa-app/screenshots/desktop1.png",
+      "sizes": "1920x1080",
+      "type": "image/jpg",
+      "form_factor": "wide"
+    },
+    {
+      "src": "https://resume.meringtone.com/pwa-app/screenshots/mobile1.png",
+      "sizes": "1080x1920",
+      "type": "image/jpg",
+      "form_factor": "narrow"
+    }
+  ],
+  "dir": "ltr",
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "orientation": "portrait",
+  "theme_color": "#05fcc5",
+  "user_preferences": {
+    "color_scheme": {
+      "dark": {
+        "theme_color": "#05fcc5",
+        "background_color": "#333333"
+      },
+      "light": {
+        "theme_color": "#05fcc5",
+        "background_color": "#FFFFFF"
+      }
+    }
+  },
+  "icons": [
+    {
+      "src": "https://resume.meringtone.com/pwa-app/512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "https://resume.meringtone.com/pwa-app/256.png",
+      "type": "image/png",
+      "sizes": "256x256",
+      "purpose": "any"
+    },
+    {
+      "src": "https://resume.meringtone.com/pwa-app/192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "https://resume.meringtone.com/pwa-app/app-maskable.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": [
+    "tools",
+    "utilities",
+    "education"
+  ],
+  "file_handlers": [
+    {
+      "action": "https://resume.meringtone.com/",
+      "accept": {
+        "image/*": [
+          ".jpg",
+          ".jpeg",
+          ".png",
+          ".webp"
+        ]
+      }
+    }
+  ],
+  "share_target": {
+    "action": "https://resume.meringtone.com/share-target/",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "files": [
+        {
+          "name": "image",
+          "accept": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ]
+        }
+      ]
+    }
+  },
+  "iarc_rating_id": "39d78758-59f2-429e-92ab-ad11d61feafe",
+  "related_applications": [
+    {
+      "platform": "windows",
+      "url": "https://resume.meringtone.com/pwa-app/manifest.webmanifest",
+      "display_name": "MeRingtone Apps"
+    }
+  ],
+  "prefer_related_applications": true,
+  "mswindows_store_tags": [
+    "Resume Builder",
+    "Resume Maker",
+    "Free Resume Builder",
+    "Resume Builder For Free",
+    "Free Resume Maker",
+    "Resume Maker For Free",
+    "Resume Template"
+  ],
+  "shortcuts": [
+      {
+        "name": "Make Your Resume",
+        "url": "/",
+        "description": "Start Making Your Resume"
+      },
+      {
+        "name": "Edit Your Resume",
+        "url": "/editor",
+        "description": "Edit Your Resume"
+      }
+    ]
+}
